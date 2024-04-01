@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A6CF98;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    padding-right: 20px; 
+}
+
+.sidebar {
+    background-color: #208454;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar .list-group-item {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: dotted;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
